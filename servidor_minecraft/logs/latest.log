@@ -1,0 +1,596 @@
+[20:35:52] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[20:35:53] [main/WARN]: Warnings were found!
+ - Mod 'Bridging Mod' (bridgingmod) 2.5.0+1.21.1 recommends version 11.0.0 or later of modmenu, which is missing!
+	 - You should install version 11.0.0 or later of modmenu for the optimal experience.
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.1.2 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Living Things' (livingthings) 1.21.1-2.2.0 recommends any version of patchouli, which is missing!
+	 - You should install any version of patchouli for the optimal experience.
+[20:35:53] [main/INFO]: Loading 149 mods:
+	- amendments 1.21-1.2.19
+	- another_furniture 4.0.0
+	- appleskin 3.0.6+mc1.21
+	- architectury 13.0.8
+	- automaticdoors 4.8
+	- betterthanmending 2.2.0
+	- bombastic 1.1.0
+	   |-- specter 1.0.2
+	   |-- specter-block 1.0.2
+	   |-- specter-config 1.0.2
+	   |-- specter-core 1.0.2
+	   |-- specter-item 1.0.2
+	   |-- specter-registry 1.0.2
+	   \-- specter-render 1.0.2
+	- bridgingmod 2.5.0+1.21.1
+	- carryon 2.2.2
+	- chunky 1.4.16
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- collective 7.87
+	- connectiblechains 2.4.2+1.21.1
+	- creativecore 2.12.22
+	   \-- net_neoforged_bus 7.2.0
+	- diagonalfences 21.1.1
+	- diagonalwalls 21.1.2
+	   \-- diagonalblocks 21.1.2
+	- easymagic 21.1.0
+	- fabric-api 0.110.0+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.70+b559734419
+	   |-- fabric-biome-api-v1 13.0.30+be1ed2d719
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a719
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.18+b559734419
+	   |-- fabric-convention-tags-v1 2.1.2+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.9.2+e60e56d419
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.0+da19b51a19
+	   |-- fabric-data-generation-api-v1 20.2.24+16c4ae2519
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9919
+	   |-- fabric-entity-events-v1 1.7.0+2122d82819
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.1.1+d5debaed19
+	   |-- fabric-item-group-api-v1 4.1.6+6823f7cd19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.5.0+01d9a51c19
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.13+6573ed8c19
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.13+6508971219
+	   |-- fabric-registry-sync-v0 5.2.0+34f5d91419
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
+	   |-- fabric-renderer-indigo 1.7.0+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.71+df3654b319
+	   |-- fabric-rendering-v1 5.0.5+df16efd019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.88+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.2+95bead5f19
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- fallingtree 1.21.1.2
+	- farmersdelight 1.21-2.1.9+refabricated
+	   |-- mm 2.3
+	   |-- porting_lib_base 3.1.0-beta+fdrf.1+1.21
+	   |    |-- com_electronwill_night-config_core 3.8.0
+	   |    |-- com_electronwill_night-config_toml 3.8.0
+	   |    |-- mm 2.3
+	   |    |-- porting_lib_accessors 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_asm 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_attributes 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_blocks 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_common 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_core 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_entity 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_extensions 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_fluids 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_gametest 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_gui_utils 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_mixin_extensions 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_tags 3.0
+	   |    \-- porting_lib_transfer 3.1.0-beta+fdrf.1+1.21
+	   |-- porting_lib_config 3.1.0-beta+fdrf.1+1.21
+	   |    |-- com_electronwill_night-config_core 3.8.0
+	   |    |-- com_electronwill_night-config_toml 3.8.0
+	   |    |-- porting_lib_core 3.1.0-beta+fdrf.1+1.21
+	   |    \-- porting_lib_gametest 3.1.0-beta+fdrf.1+1.21
+	   |-- porting_lib_item_abilities 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_blocks 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_core 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_gametest 3.1.0-beta+fdrf.1+1.21
+	   |    \-- porting_lib_level_events 3.1.0-beta+fdrf.1+1.21
+	   |-- porting_lib_lazy_registration 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_core 3.1.0-beta+fdrf.1+1.21
+	   |    \-- porting_lib_gametest 3.1.0-beta+fdrf.1+1.21
+	   |-- porting_lib_loot 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_conditions 3.1.0-beta+fdrf.1+1.21
+	   |    |-- porting_lib_core 3.1.0-beta+fdrf.1+1.21
+	   |    \-- porting_lib_gametest 3.1.0-beta+fdrf.1+1.21
+	   \-- porting_lib_recipe_book_categories 3.1.0-beta+fdrf.1+1.21
+	        |-- porting_lib_core 3.1.0-beta+fdrf.1+1.21
+	        \-- porting_lib_gametest 3.1.0-beta+fdrf.1+1.21
+	- firstperson 2.4.6
+	- forgeconfigapiport 21.1.2
+	   |-- com_electronwill_night-config_core 3.8.0
+	   \-- com_electronwill_night-config_toml 3.8.0
+	- geckolib 4.7
+	- glitchcore 2.1.0.0
+	   \-- net_jodah_typetools 0.6.3
+	- iceberg 1.2.7
+	- inmis 2.8.1-1.21.1
+	- itemphysic 1.8.3
+	- jade 15.8.2+fabric
+	- jamlib 1.2.2+1.21.1
+	   \-- blue_endless_jankson 1.2.3
+	- java 21
+	- jei 19.21.0.247
+	- journeymap 1.21.1-6.0.0-beta.29
+	   |-- ar_com_hjg_pngj 2.1.0
+	   |-- commonnetworking 1.0.16-1.21.1
+	   \-- journeymap-api-fabric 2.0.0-1.21.1-SNAPSHOT
+	- jumpoverfences 1.6.0
+	- justhammers 21.0.3
+	- livingthings 1.21.1-2.2.0
+	- mcwfurnitures 3.3.0
+	- mcwwindows 2.3.2
+	- minecraft 1.21.1
+	- modernfix 5.19.5+mc1.21.1
+	- moonlight 1.21-2.17.7
+	- mr_daycounter 1.2.1
+	- mr_dungeons_andtaverns 1-v4.4.4
+	- mr_sgrave 1-v1.0.3-beta
+	- mvs 4.2.6-1.21-fabric
+	- notenoughanimations 1.8.1
+	- oreharvester 1.4
+	- philipsruins 1.21.1
+	- pointblank 1.7.8
+	- puffish_skills 0.14.3
+	- puzzleslib 21.1.22
+	- rightclickharvest 4.4.3+1.21.1
+	- rocks 1.8.2
+	   \-- midnightlib 1.5.7
+	- sereneseasons 10.1.0.1
+	   \-- net_jodah_typetools 0.6.3
+	- skinlayers3d 1.7.2
+	- smallships 2.0.0-b2.1
+	- sound_physics_remastered 1.21.1-1.4.6
+	- stackrefill 4.5
+	- supplementaries 1.21-3.0.25-beta
+	   \-- mixinsquared 0.1.1
+	- villagernames 8.1
+	- visualworkbench 21.1.0
+	- yet_another_config_lib_v3 3.6.1+1.21-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.10.0
+	   |-- com_twelvemonkeys_common_common-io 3.10.0
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[20:35:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/servidor-2025/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:35:53] [main/INFO]: Compatibility level set to JAVA_17
+[20:35:53] [main/INFO]: Compatibility level set to JAVA_21
+[20:35:54] [main/WARN]: Reference map 'diagonalfences.common.refmap.json' for diagonalfences.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:35:54] [main/WARN]: Reference map 'diagonalfences.fabric.refmap.json' for diagonalfences.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:35:54] [main/WARN]: Reference map 'diagonalwalls.common.refmap.json' for diagonalwalls.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:35:54] [main/WARN]: Reference map 'diagonalwalls.fabric.refmap.json' for diagonalwalls.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:35:54] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:35:54] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:35:54] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:35:54] [main/WARN]: Reference map 'just-hammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:35:54] [main/INFO]: Loaded configuration file for ModernFix 5.19.5+mc1.21.1: 54 options available, 0 override(s) found
+[20:35:54] [main/INFO]: Applying Nashorn fix
+[20:35:54] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:35:54] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[20:35:54] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[20:35:54] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[20:35:54] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[20:35:54] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[20:35:54] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
+[20:35:55] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[20:35:55] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
+[20:35:55] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
+[20:35:56] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[20:35:56] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[20:35:56] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[20:35:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:36:03] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[20:36:07] [main/WARN]: Discarding @Unique public method getSlotIndex in porting_lib_extensions.mixins.json:common.SlotMixin from mod porting_lib_extensions because it already exists in net.minecraft.class_1735
+[20:36:08] [main/INFO]: Vanilla bootstrap took 10526 milliseconds
+[20:36:08] [main/INFO]: Loaded config amendments-common.json
+[20:36:10] [main/ERROR]: No data fixer registered for pipe_bomb
+[20:36:10] [main/ERROR]: No data fixer registered for juggling_ball
+[20:36:10] [main/INFO]: Loading Collective version 7.87.
+[20:36:10] [main/ERROR]: No data fixer registered for chain_knot
+[20:36:10] [main/INFO]: Initialized entity types.
+[20:36:10] [main/INFO]: Register Custom Payloads for Networking.
+[20:36:10] [main/INFO]: Constructing common components for diagonalblocks:main
+[20:36:10] [main/INFO]: Constructing common components for diagonalfences:main
+[20:36:11] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 378ms
+[20:36:11] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 67ms
+[20:36:11] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 129ms
+[20:36:11] [main/INFO]: Constructing common components for diagonalwalls:main
+[20:36:11] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=0.0,ExtensionWidth=3.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 34ms
+[20:36:11] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=0.0,ExtensionWidth=3.0,NodeTop=0.0,ExtensionBottom=0.0,ExtensionTop=14.0] took 104ms
+[20:36:11] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=4.0,ExtensionWidth=3.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=14.0] took 83ms
+[20:36:11] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=4.0,ExtensionWidth=3.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 24ms
+[20:36:12] [main/INFO]: Constructing common components for easymagic:main
+[20:36:12] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[20:36:13] [main/ERROR]: No data fixer registered for rotten_tomato
+[20:36:13] [main/INFO]: Registered synced config with path sereneseasons/fertility.toml
+[20:36:13] [main/INFO]: Registered synced config with path sereneseasons/seasons.toml
+[20:36:13] [main/ERROR]: No data fixer registered for season_sensor
+[20:36:13] [main/INFO]: Initializing JamLib on Fabric
+[20:36:13] [main/INFO]: Initializing ServerSide Packet Registries
+[20:36:13] [main/INFO]: Loaded FabricRegistrationFactory for service Factory
+[20:36:13] [main/INFO]: Loaded FabricPlatformHelper for service IPlatformHelper
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:elephant
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:giraffe
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:lion
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:shark
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:penguin
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:ostrich
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:flamingo
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:crab
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:mantaray
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:raccoon
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:owl
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:ancient_blaze
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:koala
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:snail
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:monkey
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:nether_knight
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:shroomie
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:seahorse
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:baby_ender_dragon
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:peacock
+[20:36:13] [main/ERROR]: No data fixer registered for livingthings:thrown_ostrich_egg
+[20:36:13] [main/INFO]: Config 'livingthings.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'penguin.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'elephant.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'giraffe.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'lion.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'shark.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'ostrich.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'flamingo.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'crab.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'mantaray.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'raccoon.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'owl.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'ancient_blaze.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'koala.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'snail.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'monkey.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'nether_knight.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'shroomie.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'seahorse.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'baby_ender_dragon.json' was successfully loaded.
+[20:36:13] [main/INFO]: Config 'peacock.json' was successfully loaded.
+[20:36:13] [main/INFO]: Registering MobAttributes
+[20:36:13] [main/INFO]: Registering SpawnPlacements
+[20:36:14] [main/INFO]: Definitely not up to no good
+[20:36:14] [main/INFO]: Loading mod pointblank
+[20:36:14] [main/INFO]: [STDERR]: java.nio.file.NoSuchFileException: ./pointblank
+[20:36:14] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+[20:36:14] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.asIOException(UnixException.java:115)
+[20:36:14] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:477)
+[20:36:14] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:481)
+[20:36:14] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.registry.ExtensionRegistry.scanExtensions(ExtensionRegistry.java:401)
+[20:36:14] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.registry.ExtensionRegistry.discoverExtensions(ExtensionRegistry.java:243)
+[20:36:14] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.PointBlankInitializer.init(PointBlankInitializer.java:37)
+[20:36:14] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.PointBlankMod.onInitialize(PointBlankMod.java:9)
+[20:36:14] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
+[20:36:14] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63)
+[20:36:14] [main/INFO]: [STDERR]: 	at net.minecraft.server.Main.main(Main.java:111)
+[20:36:14] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+[20:36:14] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:36:14] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+[20:36:14] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+[20:36:14] [main/INFO]: [STDERR]: 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+[20:36:14] [main/ERROR]: No data fixer registered for javelin_rocket
+[20:36:14] [main/ERROR]: No data fixer registered for at4_rocket
+[20:36:14] [main/ERROR]: No data fixer registered for grenade40mm
+[20:36:14] [main/ERROR]: No data fixer registered for grenade20mm
+[20:36:14] [main/ERROR]: No data fixer registered for smaw_rocket
+[20:36:15] [main/INFO]: Constructing common components for puzzleslib:main
+[20:36:15] [main/INFO]: Updated config file at /workspaces/servidor-2025/servidor_minecraft/config/rightclickharvest.json5
+[20:36:15] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[20:36:15] [main/INFO]: Loaded config supplementaries-common.json
+[20:36:15] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[20:36:16] [main/INFO]: Constructing common components for visualworkbench:main
+[20:36:16] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[20:36:17] [main/INFO]: Initialized block sets in 31ms
+[20:36:17] [main/ERROR]: No data fixer registered for falling_lantern
+[20:36:17] [main/ERROR]: No data fixer registered for dispenser_minecart
+[20:36:17] [main/ERROR]: No data fixer registered for falling_urn
+[20:36:17] [main/ERROR]: No data fixer registered for falling_ash
+[20:36:17] [main/ERROR]: No data fixer registered for falling_sack
+[20:36:17] [main/ERROR]: No data fixer registered for brick_projectile
+[20:36:17] [main/ERROR]: No data fixer registered for slimeball_projectile
+[20:36:17] [main/ERROR]: No data fixer registered for bomb
+[20:36:17] [main/ERROR]: No data fixer registered for cannonball
+[20:36:17] [main/ERROR]: No data fixer registered for rope_arrow
+[20:36:17] [main/ERROR]: No data fixer registered for slingshot_projectile
+[20:36:18] [main/INFO]: Initialized color sets in 76ms
+[20:36:18] [main/INFO]: Finished mod setup in: [0, 2, 0, 0, 19, 4, 1] ms
+[20:36:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:36:19] [main/INFO]: Generated runtime SERVER_DATA for pack supplementaries:generated_pack (Supplementaries) in: 52 ms
+[20:36:21] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/mvs:rare - Failed to parse either. First: Not a valid resource location: #minecraft:enchant_with_levels Non [a-z0-9_.-] character in namespace of location: #minecraft:enchant_with_levels; Second: Not a json array: {"function":"#minecraft:enchant_with_levels","options":"#minecraft:on_random_loot","levels":{"type":"minecraft:uniform","min":20,"max":39},"treasure":true}
+[20:36:21] [Worker-Main-1/INFO]: Command '/livingthings' registered
+[20:36:22] [main/ERROR]: Parsing error loading recipe pointblank:g3
+com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minecraft:gold_ingot"}]; No key item in MapLike[{"count":5,"id":"minecraft:gold_ingot"}]; No key tag in MapLike[{"count":9,"id":"minecraft:iron_ingot"}]; No key item in MapLike[{"count":9,"id":"minecraft:iron_ingot"}]
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
+[20:36:23] [main/INFO]: Loaded 3293 recipes
+[20:36:23] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[20:36:23] [main/INFO]: Loaded 2033 advancements
+[20:36:23] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[20:36:23] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[20:36:23] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:replace_rope - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: supplementaries:replace_rope
+[20:36:23] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[20:36:23] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[20:36:23] [main/INFO]: Loaded 27 flute songs
+[20:36:23] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:ingots/lead, c:storage_blocks/lead, supplementaries:buntings, supplementaries:concrete_powders
+[20:36:23] [main/INFO]: Registering custom dispenser behaviors
+[20:36:23] [main/INFO]: Applied 577 biome modifications to 64 of 64 new biomes in 45.81 ms
+[20:36:23] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[20:36:23] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
+[20:36:23] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[20:36:23] [Server thread/INFO]: Loading properties
+[20:36:23] [Server thread/INFO]: Default game type: SURVIVAL
+[20:36:23] [Server thread/INFO]: Generating keypair
+[20:36:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:36:24] [Server thread/INFO]: Using epoll channel type
+[20:36:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:36:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:36:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:36:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:36:24] [Server thread/INFO]: Preparing level "world"
+[20:36:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:36:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:36:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:36:25] [Server thread/INFO]: Time elapsed: 1117 ms
+[20:36:25] [Server thread/INFO]: Done (1.656s)! For help, type "help"
+[20:36:25] [Server thread/WARN]: Dedicated server took 35.778 seconds to load
+[20:36:26] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[20:36:26] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[20:36:26] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[20:36:26] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[20:36:26] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[20:36:26] [Server thread/INFO]: Start loading plugin from Supplementaries: net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[20:36:26] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[20:36:26] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@41950ef3 for service interface journeymap.api.services.ClientPlatformService
+[20:36:26] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@50f02936 for service interface journeymap.api.services.CommonPlatformService
+[20:36:26] [Server thread/INFO]: minecraft~overworld (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~overworld.config
+[20:36:26] [Server thread/ERROR]: minecraft~overworld (SavedOk) Can't load config file journeymap/server/6.0/journeymap.server.minecraft~overworld.config : com.google.gson.JsonIOException: Interfaces can't be instantiated! Register an InstanceCreator or a TypeAdapter for this type. Interface name: com.google.common.collect.Table
+	at com.google.gson.internal.ConstructorConstructor$3.construct(ConstructorConstructor.java:136)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.createAccumulator(ReflectiveTypeAdapterFactory.java:427)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:383)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393)
+	at com.google.gson.Gson.fromJson(Gson.java:1227)
+	at com.google.gson.Gson.fromJson(Gson.java:1137)
+	at com.google.gson.Gson.fromJson(Gson.java:1047)
+	at com.google.gson.Gson.fromJson(Gson.java:982)
+	at journeymap.common.properties.PropertiesBase.fromJsonString(PropertiesBase.java:148)
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:235)
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:208)
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:197)
+	at journeymap.common.properties.PropertiesManager.genConfig(PropertiesManager.java:90)
+	at journeymap.common.properties.PropertiesManager.loadConfigs(PropertiesManager.java:54)
+	at journeymap.common.properties.PropertiesManager.getInstance(PropertiesManager.java:31)
+	at journeymap.common.Journeymap.serverStarted(Journeymap.java:114)
+	at journeymap.common.JourneymapFabric.lambda$onInitialize$1(JourneymapFabric.java:28)
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$2(ServerLifecycleEvents.java:49)
+	at net.minecraft.server.MinecraftServer.handler$zpe000$fabric-lifecycle-events-v1$afterSetupServer(MinecraftServer.java:3143)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+com.google.gson.JsonIOException: Interfaces can't be instantiated! Register an InstanceCreator or a TypeAdapter for this type. Interface name: com.google.common.collect.Table
+	at com.google.gson.internal.ConstructorConstructor$3.construct(ConstructorConstructor.java:136) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.createAccumulator(ReflectiveTypeAdapterFactory.java:427) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:383) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1047) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:982) ~[gson-2.10.1.jar:?]
+	at journeymap.common.properties.PropertiesBase.fromJsonString(PropertiesBase.java:148) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:235) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:208) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:197) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesManager.genConfig(PropertiesManager.java:90) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesManager.loadConfigs(PropertiesManager.java:54) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesManager.getInstance(PropertiesManager.java:31) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.Journeymap.serverStarted(Journeymap.java:114) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.JourneymapFabric.lambda$onInitialize$1(JourneymapFabric.java:28) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$2(ServerLifecycleEvents.java:49) ~[fabric-lifecycle-events-v1-2.5.0+01d9a51c19-8ff401bae2cee6b0.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zpe000$fabric-lifecycle-events-v1$afterSetupServer(MinecraftServer.java:3143) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:668) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:36:26] [Server thread/INFO]: minecraft~the_nether (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_nether.config
+[20:36:26] [Server thread/ERROR]: minecraft~the_nether (SavedOk) Can't load config file journeymap/server/6.0/journeymap.server.minecraft~the_nether.config : com.google.gson.JsonIOException: Interfaces can't be instantiated! Register an InstanceCreator or a TypeAdapter for this type. Interface name: com.google.common.collect.Table
+	at com.google.gson.internal.ConstructorConstructor$3.construct(ConstructorConstructor.java:136)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.createAccumulator(ReflectiveTypeAdapterFactory.java:427)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:383)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393)
+	at com.google.gson.Gson.fromJson(Gson.java:1227)
+	at com.google.gson.Gson.fromJson(Gson.java:1137)
+	at com.google.gson.Gson.fromJson(Gson.java:1047)
+	at com.google.gson.Gson.fromJson(Gson.java:982)
+	at journeymap.common.properties.PropertiesBase.fromJsonString(PropertiesBase.java:148)
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:235)
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:208)
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:197)
+	at journeymap.common.properties.PropertiesManager.genConfig(PropertiesManager.java:90)
+	at journeymap.common.properties.PropertiesManager.loadConfigs(PropertiesManager.java:54)
+	at journeymap.common.properties.PropertiesManager.getInstance(PropertiesManager.java:31)
+	at journeymap.common.Journeymap.serverStarted(Journeymap.java:114)
+	at journeymap.common.JourneymapFabric.lambda$onInitialize$1(JourneymapFabric.java:28)
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$2(ServerLifecycleEvents.java:49)
+	at net.minecraft.server.MinecraftServer.handler$zpe000$fabric-lifecycle-events-v1$afterSetupServer(MinecraftServer.java:3143)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+com.google.gson.JsonIOException: Interfaces can't be instantiated! Register an InstanceCreator or a TypeAdapter for this type. Interface name: com.google.common.collect.Table
+	at com.google.gson.internal.ConstructorConstructor$3.construct(ConstructorConstructor.java:136) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.createAccumulator(ReflectiveTypeAdapterFactory.java:427) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:383) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1047) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:982) ~[gson-2.10.1.jar:?]
+	at journeymap.common.properties.PropertiesBase.fromJsonString(PropertiesBase.java:148) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:235) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:208) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:197) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesManager.genConfig(PropertiesManager.java:90) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesManager.loadConfigs(PropertiesManager.java:54) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesManager.getInstance(PropertiesManager.java:31) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.Journeymap.serverStarted(Journeymap.java:114) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.JourneymapFabric.lambda$onInitialize$1(JourneymapFabric.java:28) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$2(ServerLifecycleEvents.java:49) ~[fabric-lifecycle-events-v1-2.5.0+01d9a51c19-8ff401bae2cee6b0.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zpe000$fabric-lifecycle-events-v1$afterSetupServer(MinecraftServer.java:3143) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:668) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:36:26] [Server thread/INFO]: minecraft~the_end (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_end.config
+[20:36:26] [Server thread/ERROR]: minecraft~the_end (SavedOk) Can't load config file journeymap/server/6.0/journeymap.server.minecraft~the_end.config : com.google.gson.JsonIOException: Interfaces can't be instantiated! Register an InstanceCreator or a TypeAdapter for this type. Interface name: com.google.common.collect.Table
+	at com.google.gson.internal.ConstructorConstructor$3.construct(ConstructorConstructor.java:136)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.createAccumulator(ReflectiveTypeAdapterFactory.java:427)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:383)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393)
+	at com.google.gson.Gson.fromJson(Gson.java:1227)
+	at com.google.gson.Gson.fromJson(Gson.java:1137)
+	at com.google.gson.Gson.fromJson(Gson.java:1047)
+	at com.google.gson.Gson.fromJson(Gson.java:982)
+	at journeymap.common.properties.PropertiesBase.fromJsonString(PropertiesBase.java:148)
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:235)
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:208)
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:197)
+	at journeymap.common.properties.PropertiesManager.genConfig(PropertiesManager.java:90)
+	at journeymap.common.properties.PropertiesManager.loadConfigs(PropertiesManager.java:54)
+	at journeymap.common.properties.PropertiesManager.getInstance(PropertiesManager.java:31)
+	at journeymap.common.Journeymap.serverStarted(Journeymap.java:114)
+	at journeymap.common.JourneymapFabric.lambda$onInitialize$1(JourneymapFabric.java:28)
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$2(ServerLifecycleEvents.java:49)
+	at net.minecraft.server.MinecraftServer.handler$zpe000$fabric-lifecycle-events-v1$afterSetupServer(MinecraftServer.java:3143)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+com.google.gson.JsonIOException: Interfaces can't be instantiated! Register an InstanceCreator or a TypeAdapter for this type. Interface name: com.google.common.collect.Table
+	at com.google.gson.internal.ConstructorConstructor$3.construct(ConstructorConstructor.java:136) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.createAccumulator(ReflectiveTypeAdapterFactory.java:427) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:383) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1047) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:982) ~[gson-2.10.1.jar:?]
+	at journeymap.common.properties.PropertiesBase.fromJsonString(PropertiesBase.java:148) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:235) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:208) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesBase.load(PropertiesBase.java:197) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesManager.genConfig(PropertiesManager.java:90) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesManager.loadConfigs(PropertiesManager.java:54) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.properties.PropertiesManager.getInstance(PropertiesManager.java:31) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.Journeymap.serverStarted(Journeymap.java:114) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at journeymap.common.JourneymapFabric.lambda$onInitialize$1(JourneymapFabric.java:28) ~[journeymap-fabric-1.21.1-6.0.0-beta.29.jar:?]
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$2(ServerLifecycleEvents.java:49) ~[fabric-lifecycle-events-v1-2.5.0+01d9a51c19-8ff401bae2cee6b0.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zpe000$fabric-lifecycle-events-v1$afterSetupServer(MinecraftServer.java:3143) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:668) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:36:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22101ms or 442 ticks behind
+[20:36:51] [Server thread/INFO]: acasanova611[/127.19.197.48:44521] logged in with entity id 15 at (-71.91037867716307, 71.0, -50.52212751574677)
+[20:36:51] [Server thread/INFO]: acasanova611 joined the game
+[20:36:58] [Server thread/INFO]: Ermanchulo222[/127.122.16.9:44061] logged in with entity id 16 at (-125.71872520164803, 63.19891106814328, -67.98448724710755)
+[20:36:59] [Server thread/INFO]: Ermanchulo222 joined the game
+[20:37:01] [Server thread/INFO]: Krauser222[/127.55.98.0:42701] logged in with entity id 128 at (-122.97655787607935, 60.78716886646662, -63.91820140349171)
+[20:37:01] [Server thread/INFO]: Krauser222 joined the game
+[20:37:08] [Server thread/WARN]: UUID of added entity already exists: class_4466['Bee'/323, l='ServerLevel[world]', x=-58.01, y=104.99, z=-256.01]
+[20:37:09] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'minecraft:count'; No component with type: 'minecraft:count' missed input: {count:1}'
+[20:37:09] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'minecraft:count'; No component with type: 'minecraft:count' missed input: {count:1}'
+[20:37:09] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'minecraft:count'; No component with type: 'minecraft:count' missed input: {count:1}'
+[20:37:10] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'minecraft:count'; No component with type: 'minecraft:count' missed input: {count:1}'
+[20:37:10] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'minecraft:count'; No component with type: 'minecraft:count' missed input: {count:1}'
+[20:37:10] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'minecraft:count'; No component with type: 'minecraft:count' missed input: {count:1}'
+[20:37:10] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'minecraft:count'; No component with type: 'minecraft:count' missed input: {count:1}'
+[20:37:10] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'minecraft:count'; No component with type: 'minecraft:count' missed input: {count:1}'
+[20:37:10] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'minecraft:count'; No component with type: 'minecraft:count' missed input: {count:1}'
+[20:37:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11237ms or 224 ticks behind
+[20:38:40] [Server thread/INFO]: Ermanchulo222 has made the advancement [Getting an Upgrade]
+[20:40:11] [Server thread/INFO]: Ermanchulo222 has made the advancement [Crops of the Wild]
+[20:45:25] [Server thread/INFO]: [Krauser222: Set the time to 1000]
+[20:45:54] [Server thread/INFO]: Krauser222 has made the advancement [Getting an Upgrade]
+[20:46:58] [Server thread/INFO]: acasanova611 has made the advancement [Stone Age]
+[20:47:34] [Server thread/INFO]: Krauser222 has made the advancement [Monster Hunter]
+[20:47:50] [Server thread/INFO]: acasanova611 fell from a high place
+[20:47:50] [Server thread/ERROR]: Display entityNot a string
+[20:50:32] [Server thread/INFO]: Krauser222 lost connection: Disconnected
+[20:50:32] [Server thread/INFO]: Krauser222 left the game
