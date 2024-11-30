@@ -1174,7 +1174,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-11-30 21:08:07 +0000",
-      "minecraft:zombie": "2024-11-30 20:47:34 +0000"
+      "minecraft:zombie": "2024-11-30 20:47:34 +0000",
+      "minecraft:creeper": "2024-11-30 21:13:46 +0000"
     },
     "done": false
   },
@@ -1217,6 +1218,12 @@
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2024-11-30 21:06:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-11-30 21:22:12 +0000"
     },
     "done": true
   },
@@ -1295,6 +1302,12 @@
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2024-11-30 21:08:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2024-11-30 21:14:14 +0000"
     },
     "done": true
   },
@@ -1393,6 +1406,12 @@
       "has_granite": "2024-11-30 21:08:25 +0000"
     },
     "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "sugar_cane": "2024-11-30 21:16:54 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
@@ -1580,9 +1599,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-11-30 21:13:47 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/combat/iron_knife": {
     "criteria": {
       "has_iron_ingot": "2024-11-30 21:06:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-11-30 21:13:47 +0000"
     },
     "done": true
   },
